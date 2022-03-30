@@ -3,10 +3,6 @@ const opController=require('../controllers/op');
 
 const router=express.Router();
 
-// router.post('/register', function(req, res){
-//   authController.register
-// });
-
 router.post('/insertClients',opController.insertClients);
 router.post('/insertAngajati',opController.insertAngajati);
 router.post('/deleteClients',opController.deleteClients);
